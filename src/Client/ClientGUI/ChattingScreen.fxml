@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="322.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClientGUI_Chatting" >
+   <children>
+      <Label fx:id="clientName" layoutX="108.0" layoutY="15.0" />
+      <ListView fx:id="txtUserList" layoutX="23.0" layoutY="118.0" prefHeight="173.0" prefWidth="176.0" />
+      <Label layoutX="348.0" layoutY="60.0" text="Chat" />
+      <TextField fx:id="txtChatField" layoutX="211.0" layoutY="269.0" prefHeight="23.0" prefWidth="302.0" />
+      <TextArea fx:id="txtChatArea" editable="false" layoutX="213.0" layoutY="84.0" prefHeight="173.0" prefWidth="302.0" />
+      <Label layoutX="21.0" layoutY="60.0" text="Total :" />
+      <Separator layoutY="39.0" prefHeight="15.0" prefWidth="533.0" />
+      <Label layoutX="191.0" layoutY="15.0" text="IP :" />
+      <Label layoutX="345.0" layoutY="15.0" text="Port : " />
+      <RadioButton fx:id="RadioBroad" layoutX="30.0" layoutY="91.0" mnemonicParsing="false" selected="true" text="BroadCast" userData="BroadCast">
+         <toggleGroup>
+            <ToggleGroup fx:id="listgroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="RadioWhisper" disable="true" layoutX="124.0" layoutY="91.0" mnemonicParsing="false" text="Whisper" toggleGroup="$listgroup" userData="Whisper" />
+      <Label fx:id="totalNum" layoutX="71.0" layoutY="97.0" />
+      <Label layoutX="21.0" layoutY="15.0" text="ClientName : " />
+      <Label fx:id="labelIp" layoutX="222.0" layoutY="15.0" />
+      <Label fx:id="labelPort" layoutX="388.0" layoutY="15.0" />
+      <Button fx:id="btnExit" layoutX="447.0" layoutY="11.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="68.0" text="나가기" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="262.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClientGUI_Login">
+   <children>
+      <Button fx:id="btnLogin" layoutX="92.0" layoutY="145.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="로그인" />
+      <Button fx:id="btnAssign" layoutX="208.0" layoutY="208.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="80.0" text="회원 가입" />
+      <Button fx:id="btnCancel" layoutX="198.0" layoutY="145.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="72.0" text="취소" />
+      <TextField fx:id="id_txtField" layoutX="100.0" layoutY="42.0" prefHeight="23.0" prefWidth="217.0" />
+      <PasswordField fx:id="pw_PwField" layoutX="100.0" layoutY="89.0" prefHeight="23.0" prefWidth="217.0" />
+      <Label contentDisplay="CENTER" graphicTextGap="10.0" layoutX="38.0" layoutY="46.0" text="아이디 : " />
+      <Label contentDisplay="CENTER" graphicTextGap="10.0" layoutX="32.0" layoutY="93.0" text="비밀 번호 :" />
+      <Label contentDisplay="CENTER" graphicTextGap="10.0" layoutX="52.0" layoutY="212.0" text="아직도 회원이 아니세요?" />
+   </children>
+</AnchorPane>
