@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="322.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Server.GUI.ServerGUI_Main">
+   <children>
+      <ListView fx:id="txtUserList" layoutX="23.0" layoutY="69.0" prefHeight="223.0" prefWidth="145.0" />
+      <TextField fx:id="txtChatField" layoutX="211.0" layoutY="269.0" prefHeight="23.0" prefWidth="302.0" />
+      <TextArea fx:id="txtChatArea" editable="false" layoutX="213.0" layoutY="69.0" prefHeight="188.0" prefWidth="302.0" />
+      <Label layoutX="23.0" layoutY="23.0" text="Total :" />
+      <Label fx:id="totalNum" layoutX="72.0" layoutY="23.0" prefHeight="15.0" prefWidth="13.0" />
+      <Button fx:id="btnExit" layoutX="380.0" layoutY="23.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="84.0" text="서버 종료" />
+      <Button fx:id="btnStart" layoutX="265.0" layoutY="23.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="84.0" text="서버 시작" />
+      <Separator layoutX="182.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="322.0" prefWidth="13.0" />
+   </children>
+</AnchorPane>

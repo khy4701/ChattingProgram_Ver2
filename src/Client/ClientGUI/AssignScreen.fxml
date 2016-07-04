@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="270.0" prefWidth="272.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Client.ClientGUI.ClientGUI_Assign">
+   <children>
+      <Label layoutX="45.0" layoutY="65.0" text="ID : " />
+      <Label layoutX="45.0" layoutY="103.0" text="Pw :" />
+      <Label layoutX="48.0" layoutY="140.0" text="IP :" />
+      <Label layoutX="41.0" layoutY="178.0" text="Port :" />
+      <TextField fx:id="txtId" layoutX="81.0" layoutY="61.0" prefHeight="23.0" prefWidth="150.0" />
+      <TextField fx:id="txtIp" layoutX="81.0" layoutY="136.0" prefHeight="23.0" prefWidth="150.0" />
+      <TextField fx:id="txtPort" layoutX="81.0" layoutY="174.0" prefHeight="23.0" prefWidth="150.0" />
+      <PasswordField fx:id="txtPw" layoutX="81.0" layoutY="99.0" prefHeight="23.0" prefWidth="150.0" />
+      <Button fx:id="btnOk" layoutX="43.0" layoutY="220.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="86.0" text="입력 완료" />
+      <Button fx:id="btnCancel" layoutX="145.0" layoutY="220.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="86.0" text="취소" />
+      <Label layoutX="86.0" layoutY="23.0" text="회원 가입 창" />
+   </children>
+</AnchorPane>
+

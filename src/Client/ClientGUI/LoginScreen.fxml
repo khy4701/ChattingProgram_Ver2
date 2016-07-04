@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="262.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClientGUI_Login">
+<AnchorPane prefHeight="262.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClientGUI.ClientGUI_Login">
    <children>
       <Button fx:id="btnLogin" layoutX="92.0" layoutY="145.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="로그인" />
       <Button fx:id="btnAssign" layoutX="208.0" layoutY="208.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="80.0" text="회원 가입" />

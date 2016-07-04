@@ -1,35 +1,38 @@
 package Client;
 
+import java.net.Socket;
+
 public class ClientInfo {
 
+	private Socket socket; 
 	private String id;
 	private String password;
-	private String ip;
-	private int port;
 	
 	// Output Stream 
 	//private 
 	
-	public ClientInfo(String id, String password, String ip, int port)
+	public ClientInfo(String id, String password)
 	{
 		this.id = id; 
 		this.password = password;
-		this.ip = ip;
-		this.port = port;
 	}
-	
-	public void setStreamInfo()
-	{;
-	}
-	
-	public String getItem_Ip()
+	public void setSocket(Socket socket)
 	{
-		return ip;
+		this.socket = socket;
 	}
 	
-	public int getItem_Port()
+	public Socket getSocket()
 	{
-		return port;
+		return socket;
+	}
+	
+	public String getItem_Id()
+	{
+		return id;
+	}
+	public String getItem_Pw()
+	{
+		return password;
 	}
 }
 	
